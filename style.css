@@ -1191,11 +1191,13 @@ right:25px;
 
 bottom:25px;
 
-width:65px;
+width:75px;
 
-height:65px;
+height:75px;
 
 background:#25D366;
+
+border:4px solid #ffffff;
 
 border-radius:50%;
 
@@ -1205,25 +1207,33 @@ justify-content:center;
 
 align-items:center;
 
-font-size:34px;
+font-size:42px;
 
-color:#fff;
+color:#ffffff !important;
 
 text-decoration:none;
 
-box-shadow:0 0 25px rgba(37,211,102,.6);
+box-shadow:0 0 35px rgba(37,211,102,.8);
 
 z-index:99999;
 
-transition:.3s;
+transition:.35s ease;
+
+}
+
+.whatsapp i{
+
+font-size:42px;
+
+color:#ffffff !important;
 
 }
 
 .whatsapp:hover{
 
-transform:scale(1.12);
+transform:scale(1.15);
 
-box-shadow:0 0 40px rgba(37,211,102,.9);
+box-shadow:0 0 50px rgba(37,211,102,1);
 
 }
 
